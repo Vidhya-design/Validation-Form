@@ -1,0 +1,25 @@
+ body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      width: 350px;
+      margin: 50px auto;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0;
+    }
+    .error {
+      color: red;
+      font-size: 14px;
+    }
+    .success {
+      color: green;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    button {
+      padding: 8px 16px;
+      margin-top: 10px;
+    }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Validation Form</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h3>Email</h3>
+  <input
+    type="text"
+    id="email"
+    placeholder="Example@email.com"
+    onchange="validateEmail()"
+  />
+  <div id="emailError" class="error"></div>
+
+  <h3>Password</h3>
+  <input
+    type="password"
+    id="password"
+    placeholder="Your Password"
+    onchange="validatePassword()"
+  />
+  <div id="passwordError" class="error"></div>
+
+  <div id="successMsg" class="success"></div>
+
+  <button onclick="handleSubmit()">Submit</button>
+</div>
+
+<script src="script.js">
+  
+</script>
+
+</body>
+</html>
